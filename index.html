@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startGame()">
+
+    <div class="div1" style="text-align: center; width: 480px;">
+     <button onmousedown ="moveup()" onmouseup ="clearMove()" ontouchstart = "moveup()">UP</button>
+     <button onmousedown ="moveleft()" onmouseup ="clearMove()" ontouchstart = "moveleft()">LEFT</button>
+     <button onmousedown ="moveright()" onmouseup ="clearMove()" ontouchstart = "moveright()">RIGHT</button>
+     <button onmousedown ="movedown()" onmouseup ="clearMove()" ontouchstart = "movedown()">DOWN</button>
+
+    </div>
+
+      
+</body>
+
+<script src="./app.js"></script>
+
+</html>
